@@ -42,6 +42,7 @@ class CustomBarChartView: BarChartView {
     private func setUp() {
         xAxis.labelPosition = .bottom
         //xAxis.setLabelCount(30, force: true)
+        barCornerRadius = 10
     }
     
 }

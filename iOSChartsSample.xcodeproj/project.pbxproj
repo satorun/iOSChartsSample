@@ -14,8 +14,8 @@
 		23D8DA871EB572FD00077832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D8DA851EB572FD00077832 /* LaunchScreen.storyboard */; };
 		23D8DA921EB572FD00077832 /* iOSChartsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8DA911EB572FD00077832 /* iOSChartsSampleTests.swift */; };
 		23D8DA9D1EB572FD00077832 /* iOSChartsSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8DA9C1EB572FD00077832 /* iOSChartsSampleUITests.swift */; };
-		23D8DAAC1EB575B500077832 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D8DAAB1EB575B500077832 /* Charts.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		23D8DAAF1EB576EC00077832 /* CustomBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8DAAE1EB576EC00077832 /* CustomBarChartView.swift */; };
+		23EFCAE71EBB95D700492AF4 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EFCAE61EBB95D700492AF4 /* Charts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,8 @@
 		23D8DA981EB572FD00077832 /* iOSChartsSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSChartsSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D8DA9C1EB572FD00077832 /* iOSChartsSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSChartsSampleUITests.swift; sourceTree = "<group>"; };
 		23D8DA9E1EB572FD00077832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23D8DAAB1EB575B500077832 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/iOS/Charts.framework; sourceTree = "<group>"; };
 		23D8DAAE1EB576EC00077832 /* CustomBarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBarChartView.swift; sourceTree = "<group>"; };
+		23EFCAE61EBB95D700492AF4 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/iOS/Charts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23D8DAAC1EB575B500077832 /* Charts.framework in Frameworks */,
+				23EFCAE71EBB95D700492AF4 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +137,7 @@
 		23D8DAAA1EB575B500077832 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				23D8DAAB1EB575B500077832 /* Charts.framework */,
+				23EFCAE61EBB95D700492AF4 /* Charts.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
